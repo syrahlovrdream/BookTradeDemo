@@ -1,8 +1,40 @@
 # BookTradeDemo
 ![icon](/screenshots/ic_launcher.png) 
 
+### 代码块
+``` python
+@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 > param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+>>> message = '''interpreter
+... prompt'''
+```
+$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
+### 流程图
+```flow
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
 
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+以及时序图:
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
 > NOTE: This project is deprecated.The brand-new version is still in
 > development mode.
 
