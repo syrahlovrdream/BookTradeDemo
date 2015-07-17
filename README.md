@@ -3,9 +3,10 @@
 
 
 
-NOTE: This project is deprecated.The brand-new version is still in development mode.
+> NOTE: This project is deprecated.The brand-new version is still in
+> development mode.
 
-- An Android app for BUPT students to post information of their used books.（in developing）
+- An Android app for BUPT students to post information of their used books.
 
 - It's still a demo now.
 
